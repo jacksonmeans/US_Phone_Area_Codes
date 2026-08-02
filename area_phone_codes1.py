@@ -2,7 +2,7 @@ import pandas as pd
 #import random
 import tkinter as tk
 
-df = pd.read_csv('/home/jacks/tests/area-codes-usa.csv')
+df = pd.read_csv('area-codes-usa.csv')
 columns = df.columns
 df.drop('latitude',axis=1)
 df.drop('longitude',axis=1)
